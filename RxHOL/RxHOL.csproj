@@ -72,6 +72,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
     <None Include="Service References\DictServiceRef\DictService.wsdl" />
     <None Include="Service References\DictServiceRef\RxHOL.DictServiceRef.Dictionary.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -106,6 +107,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
